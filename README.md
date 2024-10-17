@@ -11,10 +11,14 @@ I also used the [`Marcosh\LamPHPda`](https://github.com/marcosh/lamphpda) librar
 
 The [`tests/Feature/HanoiGameControllerTest.php`](./tests/Feature/HanoiGameControllerTest.php) has three feature tests I wrote for the game feature.
 
+- Run `php artisan test`
+
+
 ## How to Install 
 
 - First, Clone the GitHub repository
 - Run `composer install`
+- cp `.env.example .env`
 - Boot the application by running `php artisan serve`
 
 - The endpoints are 
