@@ -16,3 +16,9 @@ The [`tests/Feature/HanoiGameControllerTest.php`](./tests/Feature/HanoiGameContr
 - First, Clone the GitHub repository
 - Run `composer install`
 - Boot the application by running `php artisan serve`
+
+- The endpoints are 
+- `GET` : `/api/state` to get the state of the game
+- `POST` :`/api/move/0/2` to move the game
+
+Thank you !
